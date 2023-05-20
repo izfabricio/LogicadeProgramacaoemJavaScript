@@ -1,0 +1,28 @@
+*{
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(6, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+h2{
+    color: rgb(219, 13, 13);
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(237, 100, 100);
+    transition: width 0.5s, height 1s;;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 3, 3);
+    border-style: groove;
+    width: 110px;
+    height: 40px;
+}
